@@ -33,14 +33,14 @@ DESC
 
   s.add_development_dependency 'rspec', '~> 3'
   s.add_development_dependency 'rspec-wait', '~> 0'
-  s.add_development_dependency 'rake', '~> 10'
+  s.add_development_dependency 'rake', '~> 13'
   s.add_development_dependency 'pry', '~> 0'
   s.add_development_dependency 'appraisal', '~> 2'
-  s.add_development_dependency 'rack', '~> 1'
+  s.add_development_dependency 'rack', '~> 3'
 
   # We still support Ruby 1.9.2+, but webmock 2.2.0+ doesn't.
   s.add_development_dependency 'webmock', '= 2.2.0'
 
   s.add_development_dependency 'rack-test', '~> 0'
-  s.add_development_dependency 'sidekiq', '~> 4'
+  s.add_development_dependency 'sidekiq', '~> 8'
 end
